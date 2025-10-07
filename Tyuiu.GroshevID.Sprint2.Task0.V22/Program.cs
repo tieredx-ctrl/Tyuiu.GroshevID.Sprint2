@@ -36,7 +36,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        for (int i = 0; i < 6; i++)
+        for (int i=0; i<6; i++)
         {
             Console.WriteLine(res[i]);
         }

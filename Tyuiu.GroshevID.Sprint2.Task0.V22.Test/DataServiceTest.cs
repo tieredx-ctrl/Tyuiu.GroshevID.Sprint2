@@ -9,7 +9,7 @@ namespace Tyuiu.GroshevID.Sprint2.Task0.V22.Test
         public void ValidGetCompareOperations()
         {
             DataService ds = new DataService();
-            int x = 3105;
+            int x= 3105;
             int y = 77;
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);

@@ -8,7 +8,7 @@ namespace Tyuiu.GroshevID.Sprint2.Task0.V22.Lib
         {
             bool[] res = new bool[6];
 
-            res[0] = x == y;
+            res[0] = x== y;
             res[1] = x != y;
             res[2] = x - 3029 < y;
             res[3] = x > y;
