@@ -20,7 +20,7 @@ namespace Tyuiu.GroshevID.Sprint2.Task3.V23.Test
             DataService ds = new DataService();
             double x = 0;
             double res = ds.Calculate(x);
-            double wait = -16/3;
+            double wait = -5.333;
             Assert.AreEqual(wait, res);
         }
 
@@ -38,7 +38,7 @@ namespace Tyuiu.GroshevID.Sprint2.Task3.V23.Test
             DataService ds = new DataService();
             double x = -28;
             double res = ds.Calculate(x);
-            double wait = -308 - (1/784);
+            double wait = -308.001;
             Assert.AreEqual(wait, res);
         }
     }
